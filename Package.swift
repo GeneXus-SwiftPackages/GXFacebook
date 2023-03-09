@@ -16,13 +16,13 @@ let package = Package(
 		.target(name: "GXFacebookWrapper",
 				dependencies: [
 					"GXFacebook",
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.tvOS, .iOS]))
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.iOS, .tvOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFacebook",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXFacebook-1.0.0-beta+20230307184249.xcframework.zip",
-			checksum: "1f851ba6dc15aa991a9a44acb77a6c1e6c9c4cfa454694fc3f1d5aa8bcb65b74"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXFacebook-1.0.0-beta+20230309092859.xcframework.zip",
+			checksum: "60d27962916a536e330fe20af50ad764fd9784b79f172b9428e0590118fbfc6e"
 		)
 	]
 )
