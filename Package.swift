@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFacebook",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXFacebook-1.0.0-beta+20230601044120.xcframework.zip",
-			checksum: "8463bae08ac90eef6dc1faff2ad52fbead9dfad745264845a90d264c367d975a"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXFacebook-1.0.0-beta+20230605162159.xcframework.zip",
+			checksum: "61942e2c3ee88d874c318d3faee7c150a288634e3ff9e43502d4394a889c3079"
 		)
 	]
 )
