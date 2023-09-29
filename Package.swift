@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXFacebookWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.2.0-beta.31")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.2.0-beta.32")
 	],
 	targets: [
 		.target(name: "GXFacebookWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFacebook",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXFacebook-1.2.0-beta.31.xcframework.zip",
-			checksum: "9743736cffff456cdb6f6083fea68bb915822b8ab28b23cd56ae1dbe87e29209"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXFacebook-1.2.0-beta.32.xcframework.zip",
+			checksum: "205650e135efb9756a2085c7d90d351589aeafebdbd161f82b2c28522c2ac0b3"
 		)
 	]
 )
