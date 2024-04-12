@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXFacebookWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.6.0-beta.2")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.6.0-beta.3")
 	],
 	targets: [
 		.target(name: "GXFacebookWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFacebook",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXFacebook-1.6.0-beta.2.xcframework.zip",
-			checksum: "8ae325aadc3541340d53c6742a9ab0f6c954b240321eb380464d7fbf7595908e"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXFacebook-1.6.0-beta.3.xcframework.zip",
+			checksum: "b22115b74a835648c7f5b6f509ccd6d61943c504c6c15a0e71eb1ec1402187d1"
 		)
 	]
 )
